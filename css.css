@@ -1,0 +1,54 @@
+body {
+    background-color: #000;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    font-size: 10em;
+    display: flex;
+    align-items: center;
+}
+
+/* #session {
+    display: flex;
+    padding-left: 16px;
+    background-color: lightgray;
+} */
+
+#hours,
+#minutes,
+#seconds {
+    background-color: lightgray;
+    padding: 32px;
+    box-shadow: 0px 0px 20px  #fff;
+}
+
+.colon {
+    color: #fff;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+#hours {
+    padding: 32px;
+}
+
+#minutes {
+    padding: 32px ;
+}
+
+#seconds {
+    padding: 32px ;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
